@@ -10,7 +10,7 @@ function NavBar() {
         <Container >
             <Nav className="me-auto"> 
             <Nav.Link href="/Portfolio/" style={{padding: "5px 30px", fontSize: "18px"}}>Home</Nav.Link>
-            <Nav.Link href="/Portfolio/project" style={{padding: "5px 30px", fontSize: "18px"}}>Projects</Nav.Link>
+            <Nav.Link href="/Project/" style={{padding: "5px 30px", fontSize: "18px"}}>Projects</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
