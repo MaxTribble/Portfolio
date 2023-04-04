@@ -31,35 +31,3 @@ function App() {
 
 export default App;
 
-// function App() {
-//   const [currentPage, setCurrentPage] = useState('About')
-//   function renderPage(){
-//     if(currentPage === "About") {
-//       return <About setCurrentPage= {setCurrentPage}/>
-//     }
-//     if(currentPage === "Projects") {
-//       return <Projects/>
-//     }
-//     if(currentPage === "Contact") {
-//       return <Contact/>
-//     }
-//     if(currentPage === "Resume") {
-//       return <Resume />
-//     }
-//   }
-//   return (
-//     <div className="App bg-dark">
-//       <Header setCurrentPage = {setCurrentPage}/>
-//       <main>
-
-//         {renderPage()}
-//         <div>
-//           <Footer />
-//         </div>
-//       </main>
-//     </div>
-//   );
-// }
-
-// export default App;
-
