@@ -2,6 +2,7 @@ import project1 from '../images/Screenshot (9).png'
 import project2 from '../images/Screenshot (21).png'
 import project3 from '../images/Screenshot (10).png'
 import project4 from '../images/Screenshot (11).png'
+import project5 from '../images/Screenshot (33).png'
 
 
 function Projects() {
@@ -16,6 +17,7 @@ function Projects() {
                 <a href="https://boiling-ridge-38547.herokuapp.com/homepage"><img src={project2} alt="image of Max Tribble" style={{margin: '25px', maxHeight: '200px', borderRadius: '25px'}}></img></a>
                 <a href="https://maxtribble.github.io/Day-Planner/"><img src={project3} alt="image of Max Tribble" style={{margin: '25px', maxHeight: '200px', borderRadius: '25px'}}></img></a>
                 <a href="https://maxtribble.github.io/WeatherForecast/"><img src={project4} alt="image of Max Tribble" style={{margin: '25px', maxHeight: '200px', borderRadius: '25px', border: '1px solid black'}}></img></a>
+                <a href="https://video-game-trivia.herokuapp.com/"><img src={project5} alt="image of Max Tribble" style={{margin: '25px', maxHeight: '200px', borderRadius: '25px'}}></img></a>
             </div>
         </div>
     );
